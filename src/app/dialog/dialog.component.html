@@ -1,0 +1,16 @@
+<h2 mat-dialog-title>Employe-Details-Form</h2>
+<div mat-dialog-content>
+    <form [formGroup] = "employeeForm">
+        <mat-form-field appearance="outline">
+            <mat-label>Employee-Name</mat-label>
+            <input matInput placeholder="Employee-Name" formControlName="employeeName">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Email</mat-label>
+            <input matInput type="email" placeholder="Email" formControlName="email">
+        </mat-form-field>
+    </form>
+</div>
+<div class="btn" [align] ="'end'">
+    <button mat-raised-button color="primary" (click)="saveDetails()">Save</button>
+</div>

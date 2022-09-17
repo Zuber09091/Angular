@@ -1,0 +1,34 @@
+{
+  "employeeDetails": [
+    {
+      "employeeName": "zuber khan",
+      "email": "alizuber48@gmail.com",
+      "id": 1
+    },
+    {
+      "employeeName": "abc",
+      "email": "a@gmail.com",
+      "id": 2
+    },
+    {
+      "employeeName": "umar khan",
+      "email": "ds,nmfrfjmriokf.@gmail,com",
+      "id": 3
+    },
+    {
+      "employeeName": "sonali ",
+      "email": "abc@gmail.com",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
